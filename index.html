@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />
-<meta name="theme-color" content="#0a0a0a" />
+<meta name="theme-color" content="#ffffff" />
 
 <!-- AI crawler welcome (real access control lives in /robots.txt) -->
 <meta name="GPTBot" content="index, follow" />
@@ -512,11 +512,16 @@
   /* === NAV === */
   nav.top {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(10,10,10,0.92);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--line);
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
-  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; max-width: 1240px; margin: 0 auto; }
+  nav.top .brand img { height: 64px; width: auto; }
+  nav.top .brand-name { color: var(--gblue, #1d6fb5); font-size: 18px; line-height: 1.1; }
+  nav.top .nav-links a { color: #374151; }
+  nav.top .nav-links a:hover { color: #1d6fb5; }
+  nav.top .nav-links a.nav-cta { color: #fff; }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 10px 24px; max-width: 1240px; margin: 0 auto; }
   .brand { display: flex; align-items: center; gap: 12px; }
   .brand-mark {
     width: 36px; height: 36px;
@@ -1049,16 +1054,14 @@
 <nav class="top">
   <div class="nav-inner">
     <a class="brand" href="/" aria-label="Customize Promotional Products — home">
-      <div class="brand-mark">
-        <!-- Mountain peak mark -->
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color:white" aria-hidden="true" focusable="false">
-          <path d="M3 19 L9 9 L13 15 L17 7 L21 19 Z" stroke-linejoin="round" />
-        </svg>
-      </div>
-      <span class="brand-name">CUSTOMIZE<span>.</span></span>
+      <img src="/images/gnomad-logo.png" alt="Gnomad Promotions logo" width="256" height="256" />
+      <span class="brand-name">Customize<br />Promotional Products</span>
     </a>
     <div class="nav-links">
-      <a href="#categories">Products</a>
+      <a href="/custom-pens.html">Pens</a>
+      <a href="/custom-drinkware.html">Drinkware</a>
+      <a href="/custom-apparel.html">Apparel</a>
+      <a href="/corporate-gifts.html">Gifts</a>
       <a href="#pricing">Pricing</a>
       <a href="#process">Process</a>
       <a href="#data">Industry Data</a>
@@ -1995,12 +1998,13 @@
 
       <div class="foot-col">
         <h4>Products</h4>
-        <a href="#categories">Custom Pens</a>
-        <a href="#categories">Drinkware</a>
-        <a href="#categories">Bags &amp; Totes</a>
-        <a href="#categories">Tents &amp; Event Gear</a>
-        <a href="#categories">Apparel</a>
-        <a href="#categories">Corporate Gifts</a>
+        <a href="/custom-pens.html">Custom Pens</a>
+        <a href="/custom-drinkware.html">Drinkware</a>
+        <a href="/custom-bags-totes.html">Bags &amp; Totes</a>
+        <a href="/custom-tents-event-gear.html">Tents &amp; Event Gear</a>
+        <a href="/custom-apparel.html">Apparel</a>
+        <a href="/corporate-gifts.html">Corporate Gifts</a>
+        <a href="/trade-show-giveaways.html">Trade Show Giveaways</a>
       </div>
 
       <div class="foot-col">
