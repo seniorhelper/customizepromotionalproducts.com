@@ -10,4 +10,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://www.customizepromotionalproducts.com/sitemap.xml
+Sitemap: https://customizepromotionalproducts.com/sitemap.xml
